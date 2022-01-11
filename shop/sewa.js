@@ -4,20 +4,17 @@ return `「 *PRICE LIST* 」
 ⬣ PRICE SEWABOT
 
 ⬡ 1 MINGGU = ${_minggu}
-⬡ 2 MINGGU = ${__minggu}
-⬡ 3 MINGGU = ${___minggu}
 ⬡ 1 BULAN = ${_bulan}
-⬡ PERMANEN = ${_permanen}
 ⬡ PERMANEN + USER PREM = ${__permanen}
 
 
-⬣ PRICE JADIBOT
+⬣ KALO SEWA SEWA LAH JANGAN LIAT HARGA DOANG🗿
 
-⬡ JADI BOT PERMANEN 25K
+⬡ WATERPACK MENN
 
 
 ⬣ MINAT? PM
-⬡ wa.me/62887435047326
+⬡ wa.me/6285742344873
 
 
 NOTE : 
