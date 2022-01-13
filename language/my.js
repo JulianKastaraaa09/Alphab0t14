@@ -4,58 +4,58 @@
    *
 */
 exports.limit = (prefix) =>{
-	return` ⚠️ Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`
+	return` ⚠️ Limit Lu Abes Bujank, ${prefix}limit untuk mengecek limit`
 }
 exports.limitg= (prefix) =>{
-	return` ⚠️ Limit game kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`
+	return` ⚠️ Limit Game Lu Abes Bujank, ${prefix}limit untuk mengecek limit`
 }
 exports.event = (prefix) =>{
-	return` ⚠️ Event grup belum di aktifkan, kirim perintah ${prefix}event on untuk mengaktifkan`
+	return` ⚠️ Event grup Kagak dinyalain, kirim perintah ${prefix}event on untuk mengaktifkan`
 }
 exports.wait = () => {
-	return `⏳ Tunggu sebentar...`
+	return `⏳ Proses... Sabar Ya Bujank`
 	}
 exports.success = () => {
-	return `❎ Selesai ...`
+	return `❎ Done Ngab Donasi gih🗿`
 	}
 exports.successBc = () => {
-	return `❎ Sukses Broadcast`
+	return `❎ Sukses Broadcast Tuan!!!`
 	}
 exports.wrongFormat = () => {
-	return `❎ Format salah, coba cek lagi di menu`
+	return `❎ Format Salah Bujank, coba cek lagi di menu`
 	}
 exports.erorStik = () => {
-	return `❎ Itu bukan stiker`
+	return `❎ Cuma Bisa Stiker,Tpi Itu Bukan Stiker`
 	}
 exports.tagStik = () => {
-	return `❎ Reply/tag stiker nya`
+	return `❎ Reply/tag stiker nya Bujank`
 	}
 exports.erorLink = () => {
-	return `❎ Linknya invalid`
+	return `❎ Linknya Kagak Bisa/inpalid`
 	}
 exports.onlygc = () => {
-	return `❎ Khusus Group`
+	return `❎ Cuma Bisa Di Grup Bujank`
 	}
 exports.onlyOwner = () => {
-	return `❎ Khusus Owner Bot`
+	return `❎ Yahahaha Gabisa Ya? Cuma Bisa Owner Bujank`
 	}
 exports.benned = () => {
-	return `❎ Maaf, nomor kamu telah di blokir`
+	return `❎ Maap ye, Nomer Lu Keblokir, Mknya Bca rules`
 	}
 exports.onlygcAdmin = () => {
-	return `❎ Khusus Admin grup`
+	return `❎ Lu Member Mau Ngapain?`
 	}
 exports.cariCecan = () => {
-	return `⏳ Mencari cecan`
+	return `⏳ Oke Gw Cari Cecan Nya`
 	}
 exports.cariCogan = () => {
-	return `⏳ Mencari cogan`
+	return `⏳ Oke Gw Cari Cogan Nya`
 	}
 exports.pesanBot = () => {
-	return `❎ Reply pesan botnya`
+	return `❎ Reply pesan botnya Bujank`
 	}
 exports.replyFoto = () => {
-	return `❎ Reply fotonya`
+	return `❎ Reply fotonya Bujank`
 	}
 exports.tagUser = () => {
 	return `❎ Tag @user`
@@ -64,10 +64,10 @@ exports.noReply = () => {
 	return `❎ Pesan yang kamu reply tidak mengandung reply`
 	}
 exports.changeNmGc = () => {
-	return `❎ Sukses  Mengubah Nama Grup`
+	return `❎ Sukses... Donasi Bujank!!!`
 	}
 exports.changeDeskGc = () => {
-	return `❎ Sukses  Mengubah Desk Grup`
+	return `❎ Sukses... Donasi Bujank!!!`
 	}
 exports.spam = (prefix, command) => {
 	return `❎ Example ${prefix + command} teks|jumlah`
@@ -79,16 +79,16 @@ exports.noteks = (prefix, command) => {
 	return `❎ Example ${prefix + command} zeeone`
 	}
 exports.botNotAdm = () => {
-	return `Jadikan bot sebagai admin u/ menggunakan perintah ini`
+	return `Bot Bukan Admin Jdi Gbisa T_T`
 	}
 exports.tryAgain = () => {
-	return `❎  Gagal, coba ulangi ^_^`
+	return `❎  Waduh,Gbisa Ngab Ulangin Sekali Lagi`
 	}
 exports.anlinOn = () => {
-	return `❎ Antilink Di Aktifkan`
+	return `❎ Antilink Aktip Bro!!!`
 	}
 exports.anlinOff = () => {
-	return `❎ Antilink Di Nonaktifkan`
+	return `❎ Antilink Non Aktip Bro!!!`
 	}
 exports.notregis = (prefix, sender) => {
 	return `Hai @${sender.split("@")[0]} kamu belum terdaftar di database, silahkan ketik ${prefix}verify\n\nKamu juga bisa daftar dengan cara mengirimkan kode verifikasi dari web api\nhttps://api-alphabot.herokuapp.com/api/verification`
@@ -97,13 +97,13 @@ exports.udahregis = (pushname) => {
 	return `Hai ${pushname} kamu sudah terdaftar di database`
 	}
 exports.enNum = () => {
- return `❎ Masukan Angka Dengan Benar`
+ return `❎ Masukan Angka Yang Bener lah!!`
  }
 exports.adminGc = () => {
- return `Karena kamu adalah admin jadi bot tidak akan mengeluarkan kamu`
+ return `Gw Kick Lu!!!,Eh Lu Admin Gjdi Deh hehe Maaf Banh`
  }
  exports.izinDt = () => {
- return `Izin diterima`
+ return `Iya Banh`
  }
  exports.anjawaOn = (command) => {
 	return `❎ ${command} Di Aktifkan`
@@ -121,23 +121,23 @@ exports.onORoff = (command) => {
 	return `Pilih on untuk mengaktifkan, off untuk menonaktifkan`
 	}
 exports.gcOpen = (command) => {
-	return `❎ ${command} Berhasil membuka grup`
+	return `❎ ${command} Sukses... Udah Gw Buka!!!`
 	}
 exports.gcClose = (command) => {
-	return `❎ ${command} Berhasil Menutup grup`
+	return `❎ ${command} Sukses... Udah Gw Tutup!!!`
 	}
 exports.nsfwmo= () => {
-	return `Fitur nsfw belum di aktifkan, hubungi owner bot u/ mengaktifkan`
+	return `Lu Pekob Mulu Otaknya Anj, Ngomong Ma Owner Biar Diaktifin`
 	}
 exports.erorCode = () => {
  return `Kode yang anda masukkan salah silahkan cek kembali\nhttps://api-alphabot.herokuapp.com/api/verification`
  }
  exports.callOwner = () => {
- return `Hubungi owner untuk menggunakan fitur ini`
+ return `Hubungi owner Biar Fiturnya Bisa Dipake`
  }
  //vote
 exports.noSesiVote = () => {
- 	return`Tidak ada sesi voting`
+ 	return`Gdak Sesi Votingnye`
  }
 exports.suksesDelVot = () => {
 	return`Sukses Menghapus sesi Voting Di Grup Ini`
@@ -160,8 +160,8 @@ exports.suksesDelTtt = () =>{
 	}
 //on & off
 exports.ownerOff = () =>{
-	return`Owner saya telah off`
+	return`Owner saya Off`
 	}
 exports.ownerOn = () =>{
-	return`Owner saya kembali on`
+	return`Owner saya On`
 	}
