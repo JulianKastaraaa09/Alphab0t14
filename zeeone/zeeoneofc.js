@@ -1,4 +1,4 @@
-const numberik = '•'
+const numberik = '│•'
 const petik = '```'
 const help = (prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii, tekss)=> {
 	return`┌❏ *INDONESIA TIME*
