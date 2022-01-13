@@ -116,22 +116,13 @@ const download = (prefix) => {
 const allmenu = (kyun, os, prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii)  => {
 	return`❏───「 *WHATSAPP BOT* 」───❏
                                
-ℒ⃝🌅  *THIS DAY*
+ℒ⃝🌅  *HARI INI*
 ${ucapannya2}
 ⏰ Jam : ${timuu} Server Time
 🌻 Hari : ${thisDay}
 🗓️ Tanggal : ${ini_tanggal}
 
-ℒ⃝📲 *P H O N E  S T A T I S T I C*
-🪀 Whatsapp : ${wa_version}
-📱 Merk HP : ${device_manufacturer}
-📱 Versi HP : ${device_model}
-🔮 Versi OS : ${os_version}
-🛑 RAM : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-🔯 MCC : ${mcc}
-♈ MNC : ${mnc}
-
-ℒ⃝👾 *B O T  S T A T I S T I C*
+ℒ⃝👾 *INFO BABY BOTZ*
 🉐 Mode : ${status}
 ⛎ Prefix : ${prefix}
 📧 Total Hit : ${hit_today.length}
@@ -142,7 +133,7 @@ ${ucapannya2}
 🌐 Server : Baileys
 ✴️ Version : 3.5.3
 🚀 Speed :  ${latensii.toFixed(4)} Second
-⏰ Runtime : ${kyun(os.uptime())}
+⏰ Runtime : ${kyun(os.uptime()}
 
 *Convert Menu*
 ${numberik} ${prefix}toimg  [reply stiker]
